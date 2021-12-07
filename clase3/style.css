@@ -1,0 +1,86 @@
+.container{
+    border: 5px solid #e1bee7;
+    background-color: #3398aa;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    place-content: center;
+    grid-template-areas: 
+        "box1   box2    box2"
+        "box3    box3    box4"
+        "box5    box6    box7";
+        gap: 20px;
+}
+
+.item{
+    font-size: 4rem;
+}
+
+.item-1{
+
+    background-color: #ccee3a;
+    background-image: url("https://cdn.alfabetajuega.com/wp-content/uploads/2020/09/go.jpg");
+    background-size:cover;
+    background-position: center;
+    grid-area: box1;
+}
+
+.item-2{
+
+    background-color: #71bb05;
+    background-image: url("https://i.pinimg.com/736x/00/8b/68/008b6896114acd500a22699514ac72e7.jpg");
+    background-size:cover;
+    background-position: center;
+    grid-area: box2;
+
+}
+
+.item-3{
+
+    background-color: #268201;
+    background-image: url("https://www.seekpng.com/png/detail/65-657244_fullmetal-alchemist-anime-logo-full-metal-alchemist-homunculus.png");
+    background-size:cover;
+    background-position: center;
+    grid-area: box3;
+
+}
+
+.item-4{
+
+    background-color: #ccee3a;
+    background-image: url("https://cdn.alfabetajuega.com/wp-content/uploads/2020/09/go.jpg");
+    background-size:cover;
+    background-position: center;
+    grid-area: box4;
+
+}
+
+.item-5{
+
+    background-color: #ccee3a;
+    background-image: url("https://cdn.alfabetajuega.com/wp-content/uploads/2020/09/go.jpg");
+    background-size:cover;
+    background-position: center;
+    grid-area: box5;
+
+}
+
+.item-6{
+
+    background-color: #71bb05;
+    background-image: url("https://i.pinimg.com/736x/00/8b/68/008b6896114acd500a22699514ac72e7.jpg");
+    background-size:cover;
+    background-position: center;
+    grid-area: box6;
+
+}
+
+.item-7{
+
+    background-color: #268201;
+    background-image: url("https://www.seekpng.com/png/detail/65-657244_fullmetal-alchemist-anime-logo-full-metal-alchemist-homunculus.png");
+    background-size:cover;
+    background-position: center;
+    grid-area: box7;
+
+}
