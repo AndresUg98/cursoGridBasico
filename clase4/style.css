@@ -1,0 +1,15 @@
+.container{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: minmax(auto,300px) 200px minmax(auto, 250px);
+    grid-template-rows: repeat(3,auto);
+    
+}
+
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}
+
+/*Auto sive para que la columna o fila se ajuste al tamaño del contenido*/
